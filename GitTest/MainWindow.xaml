@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="271.078">
     <Grid>
         <Label x:Name="label" Content="Kennismaking met GIT" HorizontalAlignment="Left" Margin="61,27,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnWelkom" Content="Welkom" HorizontalAlignment="Left" Margin="86,67,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.105,0.501"/>
+        <Button x:Name="btnWelkom" Content="Welkom" HorizontalAlignment="Left" Margin="86,67,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.105,0.501" Click="btnWelkom_Click"/>
         <ListBox x:Name="lstWelkom" HorizontalAlignment="Left" Height="162" Margin="61,113,0,0" VerticalAlignment="Top" Width="129"/>
 
     </Grid>
